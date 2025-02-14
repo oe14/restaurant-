@@ -1,6 +1,11 @@
 import './style.css';
+import loadContact from "./modules/contact";
+import loadMenu from "./modules/menu";
+import loadHome from "./modules/home";
 
-console.log('Webpack is working!');
+
+
+
 const home = document.getElementById('home-btn');
 
 const menu = document.getElementById('menu-btn');
@@ -10,19 +15,8 @@ const contact = document.getElementById('contact-btn');
 const content = document.getElementById("content");
 
 
-home.addEventListener("click", function(){
-content.innerHTML = "hello";
+home.addEventListener("click", loadHome)
 
-})
+menu.addEventListener("click", loadMenu)
 
-menu.addEventListener("click", function(){
-
-alert("hello world")
-
-})
-
-contact.addEventListener("click", function(){
-
-alert("hello world")
-
-})
+contact.addEventListener("click", loadContact); 
