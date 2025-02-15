@@ -1,11 +1,10 @@
 import './style.css';
-import image from "./img/andalus-moroccan-cuisine (1).jpg"
 import loadContact from "./modules/contact";
 import loadMenu from "./modules/menu";
 import loadHome from "./modules/home";
 
 
-
+loadHome();
 
 const home = document.getElementById('home-btn');
 
