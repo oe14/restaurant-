@@ -1,4 +1,4 @@
 "# RESTAURANT PAGE"
 
  
-(Live preview)[https://oe14.github.io/restaurant-/]
+[Live preview](https://oe14.github.io/restaurant-/)
