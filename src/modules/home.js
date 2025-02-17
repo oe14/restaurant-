@@ -10,8 +10,10 @@ export default function loadHome() {
     const heading = document.createElement("h1");
     heading.textContent = "Welcome to Andalus Moroccan Cuisine";
 
+ heading.setAttribute("id", "homeHeader");
     const tagline = document.createElement("h3");
     tagline.textContent = "A Taste of Morocco in Every Bite.";
+    tagline.setAttribute("id", "tagline");
 
     const description = document.createElement("p");
     description.textContent = 
@@ -27,6 +29,7 @@ export default function loadHome() {
         "Join us for a journey through Morocco’s bustling souks, tranquil riads, and the heartwarming hospitality of its people – all through the power of taste.";
 
 
+    
     home.appendChild(heading);
     home.appendChild(tagline);
     home.appendChild(description);
