@@ -2,32 +2,58 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-body { font-family: Arial, sans-serif; 
-background-color: #d1e15e;
+body { 
 
+padding: 0px;
+margin: 0px;
+  font-family: Arial, sans-serif; 
 
 }
+nav{ 
+background-color:black; 
+padding: 25px;
+
+}
+
 #homeHeader, #tagline{ 
-color:#e76618; }
+color:#572609; 
+}
 
 
 
-body, .headerBtns{ 
+body{ 
 font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+
   font-style: normal; }
 .headerBtns{ 
-background-color: #ff8080;
-
-padding: 20px;
+background-color: black;
+color: white;
 border-width: 0;
- }
+/*padding: 20px;
+
+*/ }
 nav{ 
 display: flex;
 gap: 20px;
 justify-content: center;}
 
-#content{ 
 
-text-align:center; }
+
+.hero-image{ 
+height: 200px; }
+
+
+.home{ 
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 10vh;
+margin-right: 10vh;
+}
+.txt{ 
+align-content:center;
+margin-right: 10vw;
+margin-left:10vw;
+font-size: 20px; }

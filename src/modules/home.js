@@ -2,8 +2,8 @@ import img from "../img/Le-tajine.jpg";
 
 // document.body.style.backgroundImage = `url(${img})`;
 export default function loadHome() {
-    const content = document.getElementById("content");
-    content.innerHTML = "";
+    const content = document.getElementById("content")
+        content.innerHTML = "";
 
     const home = document.createElement("div");
     home.classList.add("home");
@@ -34,17 +34,14 @@ export default function loadHome() {
 
     const description = document.createElement("p");
     description.textContent = 
-        "Indulge in the rich traditions of Moroccan gastronomy, where every dish tells a story of spices, culture, and centuries-old culinary artistry. " +
-        "From the sizzling aroma of freshly grilled kebabs to the comforting warmth of slow-cooked tagines, we bring the vibrant flavors of Morocco straight to your plate.";
-    
-    const welcomeMessage = document.createElement("p");
-    welcomeMessage.textContent =
         "Join us for a journey through Morocco’s bustling souks, tranquil riads, and the heartwarming hospitality of its people – all through the power of taste.";
-    
-    descriptionContainer.appendChild(description);
-    descriptionContainer.appendChild(welcomeMessage);
+       
 
+    descriptionContainer.appendChild(description);
  
+
+    description.setAttribute("class", "txt");
+
     const ctaContainer = document.createElement("div");
     ctaContainer.classList.add("cta");
 
