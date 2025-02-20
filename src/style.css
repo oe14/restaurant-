@@ -44,7 +44,7 @@ justify-content: center;}
 height: 200px; }
 
 
-.home{ 
+.home, .contact, .menu{ 
 text-align: center;
 display: flex;
 flex-direction: column;
